@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.upper-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 95px;
+  box-shadow: 0px 3px 30px #7B7B7B29;
+}
+
+.tasklist-container {
+  position: absolute;
+  width: 195px;
+  height: 50px;
+  left: 135px;
+  top: 23px;
+  background-color: #ffffff;
+}
+
+#task {
+  font-size: 35px;
+  font-weight: bold;
+  color: #424242;
+}
+
+#list {
+  font-size: 35px;
+  font-weight: bold;
+  color: #00a5ec;
+  margin-left: 3px;
+}
+
+.right-sub-container {
+  position: absolute;
+  width: 210px;
+  height: 50px;
+  margin-left: 1000px;
+  margin-top: 30px;
+}
+
+#fa-icon {
+  margin-top: 5px;
+}
+
+#new-task {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #424242;
+  opacity: 0.8;
+}
+
+.card-container {
+  margin: auto;
+  margin-top: 100px;
+  width: 1050px;
+  height: 630px;
+  padding-top: 5px;
+}
+
+.card-container-one {
+  width: 26%;
+  height: 290px;
+  background-color: #ffffff;
+  border: 1.5px solid #ededed;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-container-one:hover {
+  box-shadow: 0px 0px 20px #67676729;
+}
+
+.inner-div1 {
+  right: 0;
+  color: #00a5ec;
+  font-size: 20px;
+  top: 20px;
+  width: 100%;
+  border-bottom: 1.5px solid #ededed;
+  letter-spacing: 0;
+}
+
+#check-one {
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+}
+
+.inner-div2 {
+  margin-top: 20px;
+  color: #c2c2c2;
+  margin-left: 30px;
+  text-decoration: line-through 2px solid #c2c2c2;
+}
+
+#check-two {
+  height: 20px;
+  width: 20px;
+}
+
+.inner-div3 {
+  margin-top: 20px;
+  color: black;
+  margin-left: 30px;
+}
+
+input {
+  vertical-align: -3px;
+}

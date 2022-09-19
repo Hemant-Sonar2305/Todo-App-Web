@@ -1,0 +1,76 @@
+.div-blur {
+  width: 1360px;
+  height: 1000px;
+  background-color: #000000;
+  opacity: 1;
+}
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #f7f7f7;
+  position: relative;
+  opacity: 0.4;
+}
+
+.popup-container {
+  position: absolute;
+  left: 435px;
+  top: 170px;
+  margin: auto;
+  width: 475px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ededed;
+  box-shadow: 0px 0px 20px #67676729;
+  opacity: 1;
+}
+
+.popup-heading {
+  width: 460px;
+  height: 40px;
+  border-bottom: 1px solid #ededed;
+}
+
+#popup-bar-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #404040;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#fafa-close {
+  margin-left: 250px;
+}
+
+#text-detail-container {
+  width: 430px;
+  height: 40px;
+  margin-left: 18px;
+  background-color: #ededed;
+  border-radius: 4px;
+  border: 1px solid #ededed;
+  margin-top: 30px;
+}
+
+#text-detail {
+  font-size: 16px;
+  color: #858585;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.popup-btn {
+  width: 170px;
+  height: 45px;
+  background-color: #00a5ec;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400px;
+  margin-left: 275px;
+  margin-top: 30px;
+}
